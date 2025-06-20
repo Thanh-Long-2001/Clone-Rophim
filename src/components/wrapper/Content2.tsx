@@ -2,6 +2,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { listFilmByCountry } from "../../data/listfilm.json";
 import BackgroundImg from "../../assets/backgroundImg.png";
+import { getVisibleItems } from "../../utils/helper.util";
 const getBackgroundColor = (index: number) => {
   switch (index) {
     case 0:
@@ -16,9 +17,6 @@ const getBackgroundColor = (index: number) => {
   }
 };
 export const Content2 = () => {
-  const getVisibleItems = (list, visibleCount: number) => {
-    return list.slice(0, visibleCount);
-  };
   return (
     <div className="w-full px-12.5 ">
       <div className="w-full p-8 flex flex-col gap-8 h-[812.422px]">

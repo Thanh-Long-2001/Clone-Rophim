@@ -1,19 +1,14 @@
-import { topFilm } from "../../data/listfilm.json";
 import NewestFilmImg from "../../assets/newestFilm.png";
+import { getVisibleItems } from "../../utils/helper.util";
 
-export const Content4 = () => {
-  const getVisibleItems = (list, visibleCount: number) => {
-    return list.slice(0, visibleCount);
-  };
+export const Content4 = ({ title, items }) => {
   return (
     <div className="w-full px-12.5">
       <div className="text-white mb-[19.2px] flex items-center gap-4">
-        <h3 className="text-[28px] font-semibold leading-1.4">
-          Top 10 phim bộ hôm nay
-        </h3>
+        <h3 className="text-[28px] font-semibold leading-1.4">{title}</h3>
       </div>
       <div className="w-full flex gap-4">
-        {getVisibleItems(topFilm, 6).map((i, index) => (
+        {getVisibleItems(items, 6).map((i, index) => (
           <div className="w-full flex gap-4">
             <div className="flex-1 flex flex-col gap-4">
               <div

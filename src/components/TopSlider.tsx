@@ -1,4 +1,3 @@
-import React from "react";
 import BackgroundImg from "../assets/backgroundImg.png";
 import FilmName from "../assets/filmName.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

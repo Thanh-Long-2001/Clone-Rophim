@@ -87,152 +87,573 @@
       ]
     }
   ],
-  "listNewest": [
+  "dataListByType": [
     {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": "P.Đề",
-      "tm": "T.Minh"
+      "title": "Phim Điện Ảnh Mới Coóng",
+      "items": [
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        }
+      ]
     },
     {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": "P.Đề",
-      "tm": "T.Minh"
+      "title": "Tôi nhớ Disney của Ngày Xưa!!!",
+      "items": [
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        }
+      ]
     },
     {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": "P.Đề",
-      "tm": "T.Minh"
-    },
-    {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": "P.Đề",
-      "tm": "T.Minh"
-    },
-    {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": "P.Đề",
-      "tm": "T.Minh"
-    },
-    {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": "P.Đề",
-      "tm": "T.Minh"
-    },
-    {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": "P.Đề",
-      "tm": "T.Minh"
-    },
-    {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": "P.Đề",
-      "tm": "T.Minh"
+      "title": "Phim Thiếu Nhi mà Người Lớn Vẫn Thích Cày",
+      "items": [
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": "P.Đề",
+          "tm": "T.Minh"
+        }
+      ]
     }
   ],
   "topFilm": [
     {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": 3,
-      "tm": 26,
-      "otherInfos": {
-        "old": "T13",
-        "part": 1,
-        "chapter": "10"
-      }
+      "title": "Top 10 phim bộ hôm nay",
+      "items": [
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        }
+      ]
     },
     {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": 3,
-      "tm": 26,
-      "otherInfos": {
-        "old": "T13",
-        "part": 1,
-        "chapter": "10"
-      }
-    },
-    {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": 3,
-      "tm": 26,
-      "otherInfos": {
-        "old": "T13",
-        "part": 1,
-        "chapter": "10"
-      }
-    },
-    {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": 3,
-      "tm": 26,
-      "otherInfos": {
-        "old": "T13",
-        "part": 1,
-        "chapter": "10"
-      }
-    },
-    {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": 3,
-      "tm": 26,
-      "otherInfos": {
-        "old": "T13",
-        "part": 1,
-        "chapter": "10"
-      }
-    },
-    {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": 3,
-      "tm": 26,
-      "otherInfos": {
-        "old": "T13",
-        "part": 1,
-        "chapter": "10"
-      }
-    },
-    {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": 3,
-      "tm": 26,
-      "otherInfos": {
-        "old": "T13",
-        "part": 1,
-        "chapter": "10"
-      }
-    },
-    {
-      "name": "Một Seoul Chưa Biết Đến",
-      "type": "Our Unwritten Seoul",
-      "pd": 3,
-      "tm": 26,
-      "otherInfos": {
-        "old": "T13",
-        "part": 1,
-        "chapter": "10"
-      }
+      "title": "Top 10 phim lẻ hôm nay",
+      "items": [
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Một Seoul Chưa Biết Đến",
+          "type": "Our Unwritten Seoul",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        }
+      ]
     }
   ],
   "socialInfo": {
     "topComment": [
       {
         "name": "Test",
-        "comment": "hay"
+        "comment": "hay",
+        "moreInfo": {
+          "like": 1,
+          "dislike": 0,
+          "reply": 3
+        }
+      },
+      {
+        "name": "Test1",
+        "comment": "hay1",
+        "moreInfo": {
+          "like": 1,
+          "dislike": 0,
+          "reply": 3
+        }
+      },
+      {
+        "name": "Test2",
+        "comment": "hay2",
+        "moreInfo": {
+          "like": 1,
+          "dislike": 0,
+          "reply": 3
+        }
+      },
+      {
+        "name": "Test3",
+        "comment": "hay qua ae oi, testr bjhjdnjdc fkjnckdc dfkvjmlkfdj ,mnd ,.m mvvvvvvvvvvvvv  hncdnmkd dncujdnv dnjkd",
+        "moreInfo": {
+          "like": 1,
+          "dislike": 0,
+          "reply": 3
+        }
+      },
+      {
+        "name": "Test4",
+        "comment": "hay4",
+        "moreInfo": {
+          "like": 1,
+          "dislike": 0,
+          "reply": 3
+        }
+      },
+      {
+        "name": "Test5",
+        "comment": "hay5",
+        "moreInfo": {
+          "like": 1,
+          "dislike": 0,
+          "reply": 3
+        }
+      },
+      {
+        "name": "Test6",
+        "comment": "hay6",
+        "moreInfo": {
+          "like": 1,
+          "dislike": 0,
+          "reply": 3
+        }
+      },
+      {
+        "name": "Test7",
+        "comment": "hay7",
+        "moreInfo": {
+          "like": 1,
+          "dislike": 0,
+          "reply": 3
+        }
       }
     ]
-  }
+  },
+
+  "outStanding": [
+    {
+      "name": "Bảy Di Vật Tà Ám",
+      "status": "stable"
+    },
+    {
+      "name": "Thợ Săn Dao Mổ",
+      "status": "increase"
+    },
+    {
+      "name": "Lâm Giang Tiên",
+      "status": "decrease"
+    },
+    {
+      "name": "Tôi Đã Cướp Mất Đêm Đầu Tiên Của Nam Chính",
+      "status": "stable"
+    },
+    {
+      "name": "Kiện Tướng",
+      "status": "decrease"
+    }
+  ],
+  "mostFavourite": [
+    {
+      "name": "Thợ Săn Dao Mổ",
+      "status": "stable"
+    },
+    {
+      "name": "Bảy Di Vật Tà Ám",
+      "status": "decrease"
+    },
+    {
+      "name": "Kiện Tướng",
+      "status": "decrease"
+    },
+    {
+      "name": "Lưỡi Hái Tử Thần: Huyết Thống",
+      "status": "increase"
+    },
+    {
+      "name": "Tôi Đã Cướp Mất Đêm Đầu Tiên Của Nam Chính",
+      "status": "increase"
+    }
+  ],
+  "hotCategories": [
+    {
+      "name": "Chính Kịch",
+      "status": "stable"
+    },
+    {
+      "name": "Tâm Lý",
+      "status": "increase"
+    },
+    {
+      "name": "Tình Cảm",
+      "status": "decrease"
+    },
+    {
+      "name": "Lãng Mạn",
+      "status": "decrease"
+    },
+    {
+      "name": "Hài",
+      "status": "decrease"
+    }
+  ],
+  "newComments": [
+    {
+      "name": "test",
+      "comment": "phim qua hay nhe mn oi edfkuhd sdbjksd jkndfk njkasdnkacnkjd jkncdjd ddddddddddddd ddddddddddddddd",
+      "filmName": "Bảy Di Vật Tà Ám"
+    },
+    {
+      "name": "test",
+      "comment": "phim qua hay nhe mn oi",
+      "filmName": "Bảy Di Vật Tà Ám"
+    },
+    {
+      "name": "test",
+      "comment": "phim qua hay nhe mn oi",
+      "filmName": "Bảy Di Vật Tà Ám"
+    },
+    {
+      "name": "test",
+      "comment": "phim qua hay nhe mn oi",
+      "filmName": "Bảy Di Vật Tà Ám"
+    }
+  ],
+  "TopMovie": [
+    {
+      "name": "Nhiệm Vụ Bất Khả Thi 8 - Nghiệp Báo Cuối Cùng",
+      "subTitle": "phim qua hay nhe mn oi edfkuhd sdbjksd jkndfk njkasdnkacnkjd jkncdjd ddddddddddddd ddddddddddddddd",
+      "otherInfos": {
+        "old": "T13",
+        "releaseYear": 2025,
+        "duration": "1h 48m"
+      }
+    },
+    {
+      "name": "Lilo & Stitch",
+      "subTitle": "phim qua hay nhe mn oi",
+      "otherInfos": {
+        "old": "T13",
+        "releaseYear": 2024,
+        "duration": "1h 48m"
+      }
+    },
+    {
+      "name": "Yadang: Ba Mặt Lật Kèo",
+      "subTitle": "phim qua hay nhe mn oi",
+      "otherInfos": {
+        "old": "T13",
+        "releaseYear": 2025,
+        "duration": "1h 48m"
+      }
+    },
+    {
+      "name": "Bí Mật Kinh Hoàng",
+      "subTitle": "phim qua hay nhe mn oi",
+      "otherInfos": {
+        "old": "T18",
+        "releaseYear": 2024,
+        "duration": "1h 48m"
+      }
+    }
+  ],
+  "listImgAnime": [
+    "Image1",
+    "Image2",
+    "Image3",
+    "Image4",
+    "Image5",
+    "Image6",
+    "Image7",
+    "Image8",
+    "Image9",
+    "Image10",
+    "Image11",
+    "Image12",
+    "Image13",
+    "Image14",
+    "Image15"
+  ]
 }

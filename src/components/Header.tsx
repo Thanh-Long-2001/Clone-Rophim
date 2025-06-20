@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Logo from "../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -53,7 +53,7 @@ export const Header = () => {
             <div className="px-3 leading-9">Phim Bộ</div>
             <div className="px-3 leading-9 flex ">
               <div className="mr-2 ">
-                <span className="py-[2px] rounded-[3px] px-[2.5px] bg-[#FFD875] text-[10px] font-medium">
+                <span className="py-[2px] rounded-[3px] px-[2.5px] bg-[#FFD875] text-[10px] font-medium text-black">
                   NEW
                 </span>
               </div>

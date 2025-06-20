@@ -1,0 +1,7 @@
+.backgroundI {
+  width: calc(100% - 500px);
+}
+
+.mask-img {
+  mask-image: linear-gradient(90deg, transparent 0, black 30%, black);
+}

@@ -1,26 +1,22 @@
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { listNewest } from "../../data/listfilm.json";
 import NewestFilmImg from "../../assets/newestFilm.png";
 
-import React from "react";
+import { getVisibleItems } from "../../utils/helper.util";
 
-export const Content3 = () => {
-  const getVisibleItems = (list, visibleCount: number) => {
-    return list.slice(0, visibleCount);
-  };
+export const Content3 = ({ title, items }) => {
+  console.log(title);
+
   return (
     <div className="w-full px-12.5">
       <div className="text-white mb-[19.2px] flex items-center gap-4">
-        <h3 className="text-[28px] font-semibold leading-1.4">
-          Phim Điện Ảnh Mới Coóng
-        </h3>
+        <h3 className="text-[28px] font-semibold leading-1.4">{title}</h3>
         <div className="w-7 h-7 rounded-full border-[1px] border-white/20 flex items-center justify-center">
           <FontAwesomeIcon icon={faAngleRight} />
         </div>
       </div>
       <div className="w-full flex gap-4">
-        {getVisibleItems(listNewest, 8).map((i) => (
+        {getVisibleItems(items, 8).map((i) => (
           <div className="w-full flex gap-4">
             <div className="flex-1 flex flex-col gap-3">
               <div
