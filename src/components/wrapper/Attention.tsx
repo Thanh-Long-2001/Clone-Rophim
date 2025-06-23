@@ -3,25 +3,29 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const subjects = [
-  "Marvel",
-  "4K",
-  "Sitcom",
-  "Lồng Tiếng Cực Mạnh",
-  "Xuyên Không",
-  "Cổ Trang",
-  "More1",
-  "More2",
-  "More3",
+  { title: "Marvel", color: "#556dd9" },
+  { title: "4K", color: "#8181ab" },
+  { title: "Sitcom", color: "#449b86" },
+  { title: "Lồng Tiếng Cực Mạnh", color: "#907ec2" },
+  { title: "Xuyên Không", color: "#d5937a" },
+  { title: "Cổ Trang", color: "#b65c5c" },
+  { title: "More1", color: "#515464" },
+  { title: "More2", color: "#515464" },
+  { title: "More3", color: "#515464" },
+  { title: "More3", color: "#515464" },
 ];
 
-export const Content1 = () => {
+export const Attention = () => {
   let hasMore = false;
   const getVisibleItems = (visibleCount: number) => {
     const visibleItems = subjects.slice(0, visibleCount - 1);
     const hiddenCount = subjects.length - visibleCount + 1;
     if (hiddenCount > 0) {
       hasMore = true;
-      return [...visibleItems, `+${hiddenCount}`];
+      return [
+        ...visibleItems,
+        { title: `+${hiddenCount} chủ đề`, color: "#515464" },
+      ];
     }
 
     return subjects.slice(0, visibleCount);
@@ -38,11 +42,18 @@ export const Content1 = () => {
         {getVisibleItems(7).map((item, i) => (
           <div
             key={i}
-            className={`bg-white/10  ${
+            className={` ${
               i !== getVisibleItems(7).length - 1
                 ? "px-4 py-[19.2px] pl-6 pr-10"
                 : "flex items-center justify-center"
-            } rounded-xl text-white`}
+            } rounded-xl text-white cursor-pointer transition-transform`}
+            style={{ backgroundColor: item.color }}
+            onMouseEnter={(e) =>
+              (e.currentTarget.style.transform = "translateY(-9.6px)")
+            }
+            onMouseLeave={(e) =>
+              (e.currentTarget.style.transform = "translateY(0)")
+            }
           >
             <div
               className={`h-[110px] flex flex-col ${
@@ -51,7 +62,9 @@ export const Content1 = () => {
                   : "justify-center text-center"
               } gap-[11.2px]`}
             >
-              <span className="font-bold text-[28px] leading-1.3">{item}</span>
+              <span className="font-bold text-[28px] leading-1.3">
+                {item.title}
+              </span>
               {hasMore && i !== getVisibleItems(7).length - 1 && (
                 <span className="flex gap-[3px] items-center text-sm">
                   Xem chủ đề <FontAwesomeIcon icon={faAngleRight} />

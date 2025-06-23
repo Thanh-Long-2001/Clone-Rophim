@@ -6,27 +6,33 @@
         {
           "name": "Một Seoul Chưa Biết Đến",
           "type": "Our Unwritten Seoul",
+          "image": "Korea1",
           "pd": 3,
           "tm": 26
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
           "type": "Our Unwritten Seoul",
+          "image": "Korea2",
           "pd": 3,
           "tm": 26
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
           "type": "Our Unwritten Seoul",
+          "image": "Korea3",
           "pd": 3,
           "tm": 26
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
+          "image": "Korea4",
+
           "type": "Our Unwritten Seoul"
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
+          "image": "Korea5",
           "type": "Our Unwritten Seoul"
         }
       ]
@@ -37,26 +43,31 @@
         {
           "name": "Một Seoul Chưa Biết Đến",
           "type": "Our Unwritten Seoul",
+          "image": "China1",
           "pd": 3,
           "tm": 26
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul"
+          "type": "Our Unwritten Seoul",
+          "image": "China2"
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
           "type": "Our Unwritten Seoul",
+          "image": "China3",
           "tm": 26
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
           "type": "Our Unwritten Seoul",
+          "image": "China4",
           "pd": 3
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
           "type": "Our Unwritten Seoul",
+          "image": "China5",
           "pd": 3
         }
       ]
@@ -66,22 +77,27 @@
       "items": [
         {
           "name": "Một Seoul Chưa Biết Đến",
+          "image": "USUK1",
           "type": "Our Unwritten Seoul"
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
+          "image": "USUK2",
           "type": "Our Unwritten Seoul"
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
+          "image": "USUK3",
           "type": "Our Unwritten Seoul"
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
+          "image": "USUK4",
           "type": "Our Unwritten Seoul"
         },
         {
           "name": "Một Seoul Chưa Biết Đến",
+          "image": "USUK5",
           "type": "Our Unwritten Seoul"
         }
       ]
@@ -92,52 +108,60 @@
       "title": "Phim Điện Ảnh Mới Coóng",
       "items": [
         {
-          "name": "Một Seoul Chưa Biết Đến",
+          "name": "Thợ Săn Quỷ Kpop",
           "type": "Our Unwritten Seoul",
           "pd": "P.Đề",
-          "tm": "T.Minh"
+          "tm": "T.Minh",
+          "image": "https://static.nutscdn.com/vimg/300-0/01a9b136a8df472c2718001fc3b52f98.jpg"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
+          "name": "Nửa Ngọt Nửa Đắng",
           "type": "Our Unwritten Seoul",
           "pd": "P.Đề",
-          "tm": "T.Minh"
+          "tm": "T.Minh",
+          "image": "https://static.nutscdn.com/vimg/300-0/14ffe76c14527a278405ce299edb6455.jpg"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
+          "name": "Nghi Lễ Đầu Hàng",
           "type": "Our Unwritten Seoul",
           "pd": "P.Đề",
-          "tm": "T.Minh"
+          "tm": "T.Minh",
+          "image": "https://static.nutscdn.com/vimg/300-0/99a5937604f87e1426f50293bf21a24d.jpg"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
+          "name": "Hành Trình Làm Cha",
           "type": "Our Unwritten Seoul",
           "pd": "P.Đề",
-          "tm": "T.Minh"
+          "tm": "T.Minh",
+          "image": "https://static.nutscdn.com/vimg/300-0/72dcf99d238efd929681a4fff560a070.jpg"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
+          "name": "Tình Bạn",
           "type": "Our Unwritten Seoul",
           "pd": "P.Đề",
-          "tm": "T.Minh"
+          "tm": "T.Minh",
+          "image": "https://static.nutscdn.com/vimg/300-0/8c5227d8233e625c6d72e624e6b2ede1.jpg"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
+          "name": "Thunderbolts: Biệt Đội Sấm Sét",
           "type": "Our Unwritten Seoul",
           "pd": "P.Đề",
-          "tm": "T.Minh"
+          "tm": "T.Minh",
+          "image": "https://static.nutscdn.com/vimg/300-0/f7bdc84f76fc64467f0bb8f0e789f4b4.jpg"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
+          "name": "Một Bộ Phim Minecraft",
           "type": "Our Unwritten Seoul",
           "pd": "P.Đề",
-          "tm": "T.Minh"
+          "tm": "T.Minh",
+          "image": "https://static.nutscdn.com/vimg/300-0/e29ef65a4ab23d3c34267b0e9136b187.jpg"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
+          "name": "Đêm Thánh: Đội Săn Quỷ",
           "type": "Our Unwritten Seoul",
           "pd": "P.Đề",
-          "tm": "T.Minh"
+          "tm": "T.Minh",
+          "image": "https://static.nutscdn.com/vimg/300-0/bea475c025e6d0d3ad410df2b59150e6.jpg"
         }
       ]
     },
@@ -145,50 +169,58 @@
       "title": "Tôi nhớ Disney của Ngày Xưa!!!",
       "items": [
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Phineas và Ferb",
+          "type": "Phineas và Ferb",
+          "image": "https://static.nutscdn.com/vimg/300-0/6cbd979699771a146bcec29d5e23f60f.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Hannah Montana",
+          "type": "Hannah Montana",
+          "image": "https://static.nutscdn.com/vimg/300-0/15b98538194fb5c48ba04e0fcb92b347.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Cuộc Sống Thượng Hạng của Zack & Cody",
+          "type": "The Suite Life of Zack & Cody",
+          "image": "https://static.nutscdn.com/vimg/300-0/6f58c5dc2a027cd52dbc39306487a8fd.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Tổ Ấm của Raven",
+          "type": "Raven's Home",
+          "image": "https://static.nutscdn.com/vimg/300-0/e9955662b75aa9805b49b8b0f306f96b.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Cơ Hội Mới của Sonny",
+          "type": "Sonny with a Chance",
+          "image": "https://static.nutscdn.com/vimg/300-0/59799491f8c94213d12221a54b8783b0.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Chúc May Mắn, Charlie",
+          "type": "Good Luck Charlie",
+          "image": "https://static.nutscdn.com/vimg/300-0/ba3ea4a5918e020d29830e32a071acde.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Phù Thủy Thường Trú Tại Xứ Waverly",
+          "type": "Wizards Beyond Waverly Place",
+          "image": "https://static.nutscdn.com/vimg/300-0/dd9cfcc56b67d8a53716c23a6f9c4fe1.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Thị Trấn Bí Ẩn",
+          "type": "Gravity Falls",
+          "image": "https://static.nutscdn.com/vimg/300-0/ec3df18a28fe52add31bbc89a84d7f4e.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         }
@@ -198,50 +230,58 @@
       "title": "Phim Thiếu Nhi mà Người Lớn Vẫn Thích Cày",
       "items": [
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Một Bộ Phim Minecraft",
+          "type": "A Minecraft Movie",
+          "image": "https://static.nutscdn.com/vimg/300-0/09079daa5d216e3b2487d60ec1dd0f69.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Sứ Mệnh Anh Hùng Của Hoàng Tử Dũng Cảm Ivandoe",
+          "type": "The Heroic Quest of the Valiant Prince Ivandoe",
+          "image": "https://static.nutscdn.com/vimg/300-0/fa47c0ed0d93320e0ed1fa306b2fcc7e.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Steven Universe",
+          "type": "Steven Universe",
+          "image": "https://static.nutscdn.com/vimg/300-0/beae7654d057f6d7fc7ea4256a93d805.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Ngôi Nhà Náo Nhiệt",
+          "type": "The Loud House",
+          "image": "https://static.nutscdn.com/vimg/300-0/24b7e48df39ad8c44b57dda681bd0020.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Thủy Thủ Mặt Trăng",
+          "type": "Sailor Moon",
+          "image": "https://static.nutscdn.com/vimg/300-0/d5f6731d7fb91a2a669903407b908487.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Phù Thủy Tồi Tệ",
+          "type": "The Worst Witch",
+          "image": "https://static.nutscdn.com/vimg/300-0/fb81b6fe29d141f8cd001205c91ee3eb.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Chúng Tôi Đơn Giản Là Gấu Con",
+          "type": "We Baby Bears",
+          "image": "https://static.nutscdn.com/vimg/300-0/665e8b9b444418ae7f1709247100c17e.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Chương Trình Thường Nhật",
+          "type": "Regular Show",
+          "image": "https://static.nutscdn.com/vimg/300-0/9aaccb5afb3fd445fe31f54004f58635.jpg",
           "pd": "P.Đề",
           "tm": "T.Minh"
         }
@@ -257,6 +297,7 @@
           "type": "Our Unwritten Seoul",
           "pd": 3,
           "tm": 26,
+          "image": "https://static.nutscdn.com/vimg/400-0/6cc7eb60c59d9619ce8a919b772f0e3f.jpg",
           "otherInfos": {
             "old": "T13",
             "part": 1,
@@ -264,8 +305,57 @@
           }
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Lâm Giang Tiên",
+          "type": "FEUD",
+          "pd": 3,
+          "tm": 26,
+          "image": "https://static.nutscdn.com/vimg/400-0/492206a5fddf0a2bcb5533ee829365e0.jpg",
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Hoán Vũ",
+          "type": "Reborn",
+          "pd": 3,
+          "tm": 26,
+          "image": "https://static.nutscdn.com/vimg/400-0/c8898c27e126eb8232e9fd9dfa348acb.jpg",
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Bảy Di Vật Tà Ám",
+          "type": "The Seven Relics of ill Omen",
+          "image": "https://static.nutscdn.com/vimg/400-0/c4fb8d19536b8a079bcfbccf2f712644.webp",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Thợ Săn Dao Mổ",
+          "type": "Hunter with a Scalpel",
+          "image": "https://static.nutscdn.com/vimg/400-0/0718ef873d907689b4c55062a70e4b5b.jpg",
+          "pd": 3,
+          "tm": 26,
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "Khom Lưng",
+          "type": "The Prisoner of Beauty",
+          "image": "https://static.nutscdn.com/vimg/400-0/3c57757214e9a26c4c20d39008d11ccf.jpg",
           "pd": 3,
           "tm": 26,
           "otherInfos": {
@@ -277,6 +367,7 @@
         {
           "name": "Một Seoul Chưa Biết Đến",
           "type": "Our Unwritten Seoul",
+          "image": "https://static.nutscdn.com/vimg/400-0/6cc7eb60c59d9619ce8a919b772f0e3f.jpg",
           "pd": 3,
           "tm": 26,
           "otherInfos": {
@@ -288,50 +379,7 @@
         {
           "name": "Một Seoul Chưa Biết Đến",
           "type": "Our Unwritten Seoul",
-          "pd": 3,
-          "tm": 26,
-          "otherInfos": {
-            "old": "T13",
-            "part": 1,
-            "chapter": "10"
-          }
-        },
-        {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
-          "pd": 3,
-          "tm": 26,
-          "otherInfos": {
-            "old": "T13",
-            "part": 1,
-            "chapter": "10"
-          }
-        },
-        {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
-          "pd": 3,
-          "tm": 26,
-          "otherInfos": {
-            "old": "T13",
-            "part": 1,
-            "chapter": "10"
-          }
-        },
-        {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
-          "pd": 3,
-          "tm": 26,
-          "otherInfos": {
-            "old": "T13",
-            "part": 1,
-            "chapter": "10"
-          }
-        },
-        {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "image": "https://static.nutscdn.com/vimg/400-0/6cc7eb60c59d9619ce8a919b772f0e3f.jpg",
           "pd": 3,
           "tm": 26,
           "otherInfos": {
@@ -346,8 +394,21 @@
       "title": "Top 10 phim lẻ hôm nay",
       "items": [
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Thợ Săn Quỷ Kpop",
+          "type": "KPop Demon Hunters",
+          "pd": 3,
+          "tm": 26,
+          "image": "https://static.nutscdn.com/vimg/400-0/11a035d51f54182891a4ee26cb6e0d79.jpg",
+          "otherInfos": {
+            "old": "T13",
+            "part": 1,
+            "chapter": "10"
+          }
+        },
+        {
+          "name": "28 Ngày Sau",
+          "type": "28 Days Later",
+          "image": "https://static.nutscdn.com/vimg/400-0/949e32ebd59df3047ad8c8417f218c66.jpg",
           "pd": 3,
           "tm": 26,
           "otherInfos": {
@@ -357,8 +418,9 @@
           }
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Nhiệm Vụ Bất Khả Thi 8 - Nghiệp Báo Cuối Cùng",
+          "type": "Mission: Impossible - The Final Reckoning",
+          "image": "https://static.nutscdn.com/vimg/400-0/0d4e7c499e56e0a3bb5f54795a16ab33.jpg",
           "pd": 3,
           "tm": 26,
           "otherInfos": {
@@ -368,8 +430,9 @@
           }
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Harry Potter và Hòn Đá Phù Thủy",
+          "type": "Harry Potter and the Sorcerer's Stone",
+          "image": "https://static.nutscdn.com/vimg/400-0/0d03513b7899b4c59067fa5c0ecc7fb2.jpg",
           "pd": 3,
           "tm": 26,
           "otherInfos": {
@@ -379,8 +442,9 @@
           }
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Lưỡi Hái Tử Thần: Huyết Thống",
+          "type": "Final Destination Bloodlines",
+          "image": "https://static.nutscdn.com/vimg/400-0/43d1612bcfba24fc1a152000f4df71b4.jpg",
           "pd": 3,
           "tm": 26,
           "otherInfos": {
@@ -390,19 +454,9 @@
           }
         },
         {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
-          "pd": 3,
-          "tm": 26,
-          "otherInfos": {
-            "old": "T13",
-            "part": 1,
-            "chapter": "10"
-          }
-        },
-        {
-          "name": "Một Seoul Chưa Biết Đến",
-          "type": "Our Unwritten Seoul",
+          "name": "Yadang: Ba Mặt Lật Kèo",
+          "type": "Yadang: The Snitch",
+          "image": "https://static.nutscdn.com/vimg/400-0/7dd2b6c974826d8dc5fdecc40498b363.jpg",
           "pd": 3,
           "tm": 26,
           "otherInfos": {
@@ -441,7 +495,9 @@
       {
         "name": "Test",
         "comment": "hay",
+        "avatar": "Avatar1",
         "moreInfo": {
+          "image": "CommentImg1",
           "like": 1,
           "dislike": 0,
           "reply": 3
@@ -450,7 +506,9 @@
       {
         "name": "Test1",
         "comment": "hay1",
+        "avatar": "Avatar2",
         "moreInfo": {
+          "image": "CommentImg2",
           "like": 1,
           "dislike": 0,
           "reply": 3
@@ -458,8 +516,10 @@
       },
       {
         "name": "Test2",
-        "comment": "hay2",
+        "comment": "hay3",
+        "avatar": "Avatar1",
         "moreInfo": {
+          "image": "CommentImg3",
           "like": 1,
           "dislike": 0,
           "reply": 3
@@ -467,8 +527,10 @@
       },
       {
         "name": "Test3",
+        "avatar": "Avatar4",
         "comment": "hay qua ae oi, testr bjhjdnjdc fkjnckdc dfkvjmlkfdj ,mnd ,.m mvvvvvvvvvvvvv  hncdnmkd dncujdnv dnjkd",
         "moreInfo": {
+          "image": "CommentImg4",
           "like": 1,
           "dislike": 0,
           "reply": 3
@@ -476,8 +538,10 @@
       },
       {
         "name": "Test4",
-        "comment": "hay4",
+        "avatar": "Avatar5",
+        "comment": "hay",
         "moreInfo": {
+          "image": "CommentImg4",
           "like": 1,
           "dislike": 0,
           "reply": 3
@@ -485,8 +549,10 @@
       },
       {
         "name": "Test5",
+        "avatar": "Avatar1",
         "comment": "hay5",
         "moreInfo": {
+          "image": "CommentImg3",
           "like": 1,
           "dislike": 0,
           "reply": 3
@@ -494,8 +560,10 @@
       },
       {
         "name": "Test6",
+        "avatar": "Avatar2",
         "comment": "hay6",
         "moreInfo": {
+          "image": "CommentImg2",
           "like": 1,
           "dislike": 0,
           "reply": 3
@@ -503,8 +571,10 @@
       },
       {
         "name": "Test7",
+        "avatar": "Avatar1",
         "comment": "hay7",
         "moreInfo": {
+          "image": "CommentImg1",
           "like": 1,
           "dislike": 0,
           "reply": 3
@@ -516,95 +586,116 @@
   "outStanding": [
     {
       "name": "Bảy Di Vật Tà Ám",
+      "image": "https://static.nutscdn.com/vimg/300-0/c4fb8d19536b8a079bcfbccf2f712644.webp",
       "status": "stable"
     },
     {
       "name": "Thợ Săn Dao Mổ",
+      "image": "https://static.nutscdn.com/vimg/300-0/0e8c426add0bb609f940f34e12679e3e.jpg",
       "status": "increase"
     },
     {
       "name": "Lâm Giang Tiên",
+      "image": "https://static.nutscdn.com/vimg/300-0/8b86854b8793b8e4bf1d0aa220513d5e.jpg",
       "status": "decrease"
     },
     {
       "name": "Tôi Đã Cướp Mất Đêm Đầu Tiên Của Nam Chính",
+      "image": "https://static.nutscdn.com/vimg/300-0/492206a5fddf0a2bcb5533ee829365e0.jpg",
       "status": "stable"
     },
     {
       "name": "Kiện Tướng",
+      "image": "https://static.nutscdn.com/vimg/300-0/7a6d6a456fe14c149ea625fd0178d38e.jpg",
       "status": "decrease"
     }
   ],
   "mostFavourite": [
     {
       "name": "Thợ Săn Dao Mổ",
+      "image": "https://static.nutscdn.com/vimg/300-0/0e8c426add0bb609f940f34e12679e3e.jpg",
       "status": "stable"
     },
     {
       "name": "Bảy Di Vật Tà Ám",
+      "image": "https://static.nutscdn.com/vimg/300-0/c4fb8d19536b8a079bcfbccf2f712644.webp",
       "status": "decrease"
     },
     {
       "name": "Kiện Tướng",
+      "image": "https://static.nutscdn.com/vimg/300-0/7a6d6a456fe14c149ea625fd0178d38e.jpg",
       "status": "decrease"
     },
     {
-      "name": "Lưỡi Hái Tử Thần: Huyết Thống",
+      "name": "Cửu Trùng Tử",
+      "image": "https://static.nutscdn.com/vimg/300-0/298a424f224ab6b2853a94235d8e22dc.jpg",
       "status": "increase"
     },
     {
       "name": "Tôi Đã Cướp Mất Đêm Đầu Tiên Của Nam Chính",
+      "image": "https://static.nutscdn.com/vimg/300-0/492206a5fddf0a2bcb5533ee829365e0.jpg",
       "status": "increase"
     }
   ],
   "hotCategories": [
     {
       "name": "Chính Kịch",
-      "status": "stable"
+      "status": "stable",
+      "color": "#742d4b"
     },
     {
       "name": "Tâm Lý",
-      "status": "increase"
+      "status": "increase",
+      "color": "#387fda"
     },
     {
       "name": "Tình Cảm",
-      "status": "decrease"
+      "status": "decrease",
+      "color": "#7356b1"
     },
     {
       "name": "Lãng Mạn",
-      "status": "decrease"
+      "status": "decrease",
+      "color": "#91ab47"
     },
     {
       "name": "Hài",
-      "status": "decrease"
+      "status": "decrease",
+      "color": "#a98762"
     }
   ],
   "newComments": [
     {
       "name": "test",
       "comment": "phim qua hay nhe mn oi edfkuhd sdbjksd jkndfk njkasdnkacnkjd jkncdjd ddddddddddddd ddddddddddddddd",
+      "filmName": "Bảy Di Vật Tà Ám",
+      "avatar": "Avatar1"
+    },
+    {
+      "name": "test",
+      "comment": "phim qua hay nhe mn oi",
+      "avatar": "Avatar2",
       "filmName": "Bảy Di Vật Tà Ám"
     },
     {
       "name": "test",
       "comment": "phim qua hay nhe mn oi",
+      "avatar": "Avatar3",
       "filmName": "Bảy Di Vật Tà Ám"
     },
     {
       "name": "test",
       "comment": "phim qua hay nhe mn oi",
-      "filmName": "Bảy Di Vật Tà Ám"
-    },
-    {
-      "name": "test",
-      "comment": "phim qua hay nhe mn oi",
+      "avatar": "Avatar4",
       "filmName": "Bảy Di Vật Tà Ám"
     }
   ],
   "TopMovie": [
     {
       "name": "Nhiệm Vụ Bất Khả Thi 8 - Nghiệp Báo Cuối Cùng",
-      "subTitle": "phim qua hay nhe mn oi edfkuhd sdbjksd jkndfk njkasdnkacnkjd jkncdjd ddddddddddddd ddddddddddddddd",
+      "subTitle": "Mission: Impossible - The Final Reckoning",
+      "background": "https://static.nutscdn.com/vimg/500-0/931fb23eb19f7496494d3168a38f81eb.jpg",
+      "thumnail": "https://static.nutscdn.com/vimg/100-0/0d4e7c499e56e0a3bb5f54795a16ab33.jpg",
       "otherInfos": {
         "old": "T13",
         "releaseYear": 2025,
@@ -613,7 +704,9 @@
     },
     {
       "name": "Lilo & Stitch",
-      "subTitle": "phim qua hay nhe mn oi",
+      "subTitle": "Lilo & Stitch",
+      "background": "https://static.nutscdn.com/vimg/500-0/a9715fe20d6670716ccbbe9caa861be3.webp",
+      "thumnail": "https://static.nutscdn.com/vimg/100-0/ed1ec5f573fecdffda17cf232a22a975.webp",
       "otherInfos": {
         "old": "T13",
         "releaseYear": 2024,
@@ -622,7 +715,9 @@
     },
     {
       "name": "Yadang: Ba Mặt Lật Kèo",
-      "subTitle": "phim qua hay nhe mn oi",
+      "subTitle": "Yadang: The Snitch",
+      "background": "https://static.nutscdn.com/vimg/500-0/b57a585ffd7d109233e409b3b4d216e5.jpg",
+      "thumnail": "https://static.nutscdn.com/vimg/100-0/7dd2b6c974826d8dc5fdecc40498b363.jpg",
       "otherInfos": {
         "old": "T13",
         "releaseYear": 2025,
@@ -631,7 +726,9 @@
     },
     {
       "name": "Bí Mật Kinh Hoàng",
-      "subTitle": "phim qua hay nhe mn oi",
+      "subTitle": "Until Dawn",
+      "background": "https://static.nutscdn.com/vimg/500-0/b93de5750a063ee53413a5730194f5ce.jpg",
+      "thumnail": "https://static.nutscdn.com/vimg/100-0/cfa0d9ded1b1dea66b327f4251ec4e29.jpg",
       "otherInfos": {
         "old": "T18",
         "releaseYear": 2024,
@@ -640,20 +737,20 @@
     }
   ],
   "listImgAnime": [
-    "Image1",
-    "Image2",
-    "Image3",
-    "Image4",
-    "Image5",
-    "Image6",
-    "Image7",
-    "Image8",
-    "Image9",
-    "Image10",
-    "Image11",
-    "Image12",
-    "Image13",
-    "Image14",
-    "Image15"
+    "https://static.nutscdn.com/vimg/100-0/2df0127f504b71d282bb105b3d4a666d.jpg",
+    "https://static.nutscdn.com/vimg/100-0/bb129558e2bf1d6a489174cf1c9a8f3a.jpg",
+    "https://static.nutscdn.com/vimg/100-0/63d1422c1763e8b2502f1f43576ef745.jpg",
+    "https://static.nutscdn.com/vimg/100-0/a195ddf22acfe7e77aefcbea5d641207.jpg",
+    "https://static.nutscdn.com/vimg/100-0/a6885880d5d38f0acaff231fb8e77c80.jpg",
+    "https://static.nutscdn.com/vimg/100-0/909e422b1dd3356cfdeab8b44059d5c4.jpg",
+    "https://static.nutscdn.com/vimg/100-0/d57f5264aa2b6cfbe7d3c290d4504fe2.jpg",
+    "https://static.nutscdn.com/vimg/100-0/6177fa71c7f3b79e45b8474287e39988.jpg",
+    "https://static.nutscdn.com/vimg/100-0/6f91f0caf0c616cec99e3114422c286c.jpg",
+    "https://static.nutscdn.com/vimg/100-0/190e5a10a2f1fdbae1c1baa4e77fb9f6.jpg",
+    "https://static.nutscdn.com/vimg/100-0/e3735de7a17545acb9a2545fe159df6b.jpg",
+    "https://static.nutscdn.com/vimg/100-0/47e1116bd8784569f59bbfc618117059.jpg",
+    "https://static.nutscdn.com/vimg/100-0/4baea51cc66f09437189dd59ba309a68.jpg",
+    "https://static.nutscdn.com/vimg/100-0/76054b0c6491118aae13646f5563c406.jpg",
+    "https://static.nutscdn.com/vimg/100-0/060d45e13a8a0ac1acf595c07d241901.jpg"
   ]
 }

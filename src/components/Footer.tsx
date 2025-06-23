@@ -1,6 +1,5 @@
 import { FooterIcon } from "../assets/footerIcon";
 import VNFlagImg from "../assets/vn_flag.svg";
-import Logo from "../assets/logo.png";
 import TeleGramIcon from "../assets/telegram-icon.svg";
 import DiscordIcon from "../assets/discord-icon.svg";
 import XIcon from "../assets/x-icon.svg";
@@ -25,7 +24,10 @@ export const Footer = () => {
           </div>
           <div className="mb-8 w-fit flex text-white items-center gap-12">
             <div className="h-15">
-              <img className="h-15 w-auto" src={Logo} />
+              <img
+                className="h-15 w-auto"
+                src="https://www.rophim.me/images/logo.svg"
+              />
             </div>
             <div className="pl-12 border-l-[1px] border-white/10 flex gap-3">
               <a

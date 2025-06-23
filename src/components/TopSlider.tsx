@@ -23,14 +23,16 @@ export const TopSlider = () => {
         <div className="relative h-[660px]">
           <div className="h-full w-fit flex items-end">
             <div className="relative px-[50px] py-25 max-w-175 z-5 ">
-              <div className="h-[130px] mb-4">
+              <div className="h-[130px] mb-4 cursor-pointer">
                 <img src={FilmName} />
               </div>
-              <h3 className="mb-4 text-[#FFD875]">The Amateur</h3>
-              <div className="flex gap-[9.6px] text-[#FFD875] mb-4">
-                <div className="rounded-[5.28px] px-[6.4px] border-[1px] border-[#FFD875]">
-                  <span className="pr-1">IMDb</span>
-                  <span className="text-white">6.5</span>
+              <h3 className="mb-4 text-[#FFD875] cursor-pointer">
+                The Amateur
+              </h3>
+              <div className="flex gap-[9.6px] text-[#FFD875] mb-4 cursor-pointer">
+                <div className="rounded-[5.28px] px-[6.4px] border-[1px] border-[#FFD875] flex items-center">
+                  <span className="pr-1 text-[10px]">IMDb</span>
+                  <span className="text-white leading-6 text-sm">6.5</span>
                 </div>
                 <div
                   className="rounded-[5.28px] px-[6.4px] bg-[#FFD875] "
@@ -38,41 +40,51 @@ export const TopSlider = () => {
                     backgroundImage: "linear-gradient(220deg, #FFD875, #FFF)",
                   }}
                 >
-                  <span className="text-black">4k</span>
+                  <span className="text-sm text-black leading-[19.2px] font-medium">
+                    4k
+                  </span>
                 </div>
-                <div className="rounded-[5.28px] px-[6.4px] bg-white ">
-                  <span className="text-black">T18</span>
+                <div className="rounded-[5.28px] flex items-center px-[6.4px] bg-white ">
+                  <span className="text-xs text-black font-medium">T18</span>
                 </div>
-                <div className="rounded-[5.28px] px-[6.4px] border-[1px] border-[#fff]">
-                  <span className="text-white">2025</span>
+                <div className="rounded-[5.28px] flex items-center px-[6.4px] border-[1px] border-[#fff]">
+                  <span className="text-xs text-white">2025</span>
                 </div>
-                <div className="rounded-[5.28px] px-[6.4px] border-[1px] border-[#fff]">
-                  <span className="text-white">1h 44m</span>
+                <div className="rounded-[5.28px] flex items-center px-[6.4px] border-[1px] border-[#fff]">
+                  <span className="text-xs text-white">1h 44m</span>
                 </div>
               </div>
-              <div className="flex gap-[9.6px] text-white mb-6">
-                <div className="rounded-[5.28px] px-[6.4px] bg-white/10">
+              <div className="flex gap-[9.6px] text-white mb-6 cursor-pointer">
+                <div className="rounded-[5.28px] px-[6.4px] bg-white/10 text-hover-change text-xs h-6.5 flex items-center ">
                   <span className="">Chiếu Rạp</span>
                 </div>
-                <div className="rounded-[5.28px] px-[6.4px] bg-white/10 ">
+                <div className="rounded-[5.28px] px-[6.4px] bg-white/10 text-hover-change text-xs h-6.5  flex items-center">
                   <span className="">Gay Cấn</span>
                 </div>
-                <div className="rounded-[5.28px] px-[6.4px] bg-white/10 ">
+                <div className="rounded-[5.28px] px-[6.4px] bg-white/10 text-hover-change text-xs h-6.5  flex items-center">
                   <span className="">Kinh Dị</span>
                 </div>
-                <div className="rounded-[5.28px] px-[6.4px] bg-white/10">
+                <div
+                  className="rounded-[5.28px] px-[6.4px] bg-white/10 text-hover-change text-xs h-6.5 flex items-center "
+                  flex
+                  items-center
+                >
                   <span className="">Bí Ẩn</span>
                 </div>
-                <div className="rounded-[5.28px] px-[6.4px] bg-white/10">
+                <div
+                  className="rounded-[5.28px] px-[6.4px] bg-white/10 text-hover-change text-xs h-6.5 flex items-center "
+                  flex
+                  items-center
+                >
                   <span className="">Hài</span>
                 </div>
               </div>
-              <div className=" text-white mb-6">
+              <div className=" text-white mb-6 cursor-pointer">
                 Bộ phim sẽ là xoay quanh một sinh viên đại học liên tục gặp các
                 ác mộng về sự sụp đổ của gia đình cô, buộc cô phải trở về ngôi
                 nhà của mình và tìm kiếm người có thể ngăn chặn điều đó xảy ra
               </div>
-              <div className="flex gap-8 items-center">
+              <div className="flex gap-8 items-center cursor-pointer">
                 <div className="h-17.5 w-17.5 flex items-center text-[28px] justify-center  rounded-full text-black bg-[linear-gradient(39deg,rgba(254,207,89,1),rgba(255,241,204,1))]">
                   <div className="relative left-[2px]">
                     <FontAwesomeIcon icon={faPlay} />
@@ -117,7 +129,7 @@ export const TopSlider = () => {
           </div>
         </div>
         <div className="absolute bottom-[212px] right-[50px] w-[450px] h-[45px]">
-          <div className="h-full flex">
+          <div className="h-full flex cursor-pointer">
             <div className="mr-[5px] flex-1">
               <div
                 className="w-full h-full bg-cover bg-no-repeat bg-center rounded-[8px] border-[2px] border-white "
@@ -127,31 +139,41 @@ export const TopSlider = () => {
             <div className="mr-[5px] flex-1">
               <div
                 className="w-full h-full bg-cover bg-no-repeat bg-center rounded-[8px] border-[2px] border-white/30 "
-                style={{ backgroundImage: `url(${BackgroundImg})` }}
+                style={{
+                  backgroundImage: `url(${"https://static.nutscdn.com/vimg/150-0/27591bc926452f55a69c18dbf6b6f930.webp"})`,
+                }}
               ></div>
             </div>
             <div className="mr-[5px] flex-1">
               <div
                 className="w-full h-full bg-cover bg-no-repeat bg-center rounded-[8px] border-[2px] border-white/30 "
-                style={{ backgroundImage: `url(${BackgroundImg})` }}
+                style={{
+                  backgroundImage: `url(${"https://static.nutscdn.com/vimg/150-0/60847d8f5b2a261bccf48c26dc958fb4.webp"})`,
+                }}
               ></div>
             </div>
             <div className="mr-[5px] flex-1">
               <div
                 className="w-full h-full bg-cover bg-no-repeat bg-center rounded-[8px] border-[2px] border-white/30 "
-                style={{ backgroundImage: `url(${BackgroundImg})` }}
+                style={{
+                  backgroundImage: `url(${"https://static.nutscdn.com/vimg/150-0/3f912f6db5f248397fe4140f01c1c374.jpg"})`,
+                }}
               ></div>
             </div>
             <div className="mr-[5px] flex-1">
               <div
                 className="w-full h-full bg-cover bg-no-repeat bg-center rounded-[8px] border-[2px] border-white/30 "
-                style={{ backgroundImage: `url(${BackgroundImg})` }}
+                style={{
+                  backgroundImage: `url(${"https://static.nutscdn.com/vimg/150-0/d65790d160abd8842a11aa80c19d3bf1.jpg"})`,
+                }}
               ></div>
             </div>
             <div className="mr-[5px] flex-1">
               <div
                 className="w-full h-full bg-cover bg-no-repeat bg-center rounded-[8px] border-[2px] border-white/30 "
-                style={{ backgroundImage: `url(${BackgroundImg})` }}
+                style={{
+                  backgroundImage: `url(${"https://static.nutscdn.com/vimg/150-0/b93de5750a063ee53413a5730194f5ce.jpg"})`,
+                }}
               ></div>
             </div>
           </div>

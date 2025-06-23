@@ -4,7 +4,7 @@ import BgAnime from "../../assets/bg-Anime.webp";
 import { listImgAnime } from "../../data/listfilm.json";
 import NewestFilmImg from "../../assets/newestFilm.png";
 
-export const Content6 = () => {
+export const AnimeStore = () => {
   return (
     <div className="w-full px-12.5">
       <div className="text-white mb-[19.2px] flex items-center gap-4">
@@ -17,8 +17,11 @@ export const Content6 = () => {
       </div>
       <div className="h-125 rounded-[19.2px] relative bg-[#2F3346]">
         <div className="backgroundI h-full absolute right-0 mask-img">
-          <div className="w-full h-full">
-            <img className="w-full h-full" src={BgAnime} />
+          <div
+            className="w-full h-full bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: `url(${BgAnime})` }}
+          >
+            {/* <img className="w-full h-full" src={BgAnime} /> */}
           </div>
         </div>
         <div className="h-full max-w-[700px] p-12">
@@ -112,14 +115,14 @@ export const Content6 = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-300 flex gap-4 mx-auto -translate-y-2/3">
+        <div className="relative w-fit flex flex-wrap gap-4 mx-auto -translate-y-2/3 content-center justify-center">
           {listImgAnime.map((i, index) => (
             <div className="h-[88.59px] ">
               <img
                 className={`w-full h-full rounded-lg border-[3px] ${
                   index === 0 ? "border-white" : "border-[#2f3346]"
                 }`}
-                src={NewestFilmImg}
+                src={i}
               />
             </div>
           ))}

@@ -1,25 +1,25 @@
-import { Content1 } from "./Content1";
-import { Content2 } from "./Content2";
-import { Content3 } from "./Content3";
-import { Content4 } from "./Content4";
+import { Attention } from "./Attention";
+import { CountryFilm } from "./CountryFilm";
+import { TopFilm } from "./TopFilm";
 import { SocialInfo } from "./SocialInfo";
-import { Content5 } from "./Content5";
+import { MovieFilm } from "./MovieFilm";
 import { dataListByType, topFilm } from "../../data/listfilm.json";
-import { Content6 } from "./Content6";
+import { AnimeStore } from "./AnimeStore";
 import "./Wrapper.css";
+import { UniqueStyle } from "./UniqueStyle";
 export const Wrapper = () => {
   return (
-    <div className="flex flex-col gap-12.5 -mt-25 relative z-6 pb-40">
-      <Content1 />
-      <Content2 />
+    <div className="w-full flex flex-col gap-12.5 -mt-25 relative z-6 pb-40">
+      <Attention />
+      <CountryFilm />
       <SocialInfo />
-      <Content3 {...dataListByType[0]} />
-      <Content4 {...topFilm[0]} />
-      <Content5 />
-      <Content3 {...dataListByType[1]} />
-      <Content4 {...topFilm[1]} />
-      <Content3 {...dataListByType[2]} />
-      <Content6 />
+      <UniqueStyle {...dataListByType[0]} />
+      <TopFilm {...topFilm[0]} />
+      <MovieFilm />
+      <UniqueStyle {...dataListByType[1]} />
+      <TopFilm {...topFilm[1]} />
+      <UniqueStyle {...dataListByType[2]} />
+      <AnimeStore />
     </div>
   );
 };

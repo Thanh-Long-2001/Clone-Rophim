@@ -13,10 +13,10 @@ function App() {
       <div className="bg-[#191B24] relative top-0">
         <TopSlider />
       </div>
-      <div className="w-full bg-[#191B24]">
+      <div className="s bg-[#191B24]">
         <Wrapper />
       </div>
-      <footer className="w-full bg-[#0F111A]">
+      <footer className=" bg-[#0F111A]">
         <Footer />
       </footer>
     </>

@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Logo from "../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCaretDown,
@@ -20,38 +19,46 @@ export const Header = () => {
   return (
     <div
       className={`w-full  px-8 ${
-        !isScrolled ? "h-[90px]" : "h-[70px] bg-black"
+        !isScrolled ? "h-[90px]" : "h-[70px] bg-[#0f111a]"
       } flex items-center text-white`}
     >
       <div className="w-full h-full flex gap-[32px] items-center">
         <div
           className="max-w-[154.55px] w-full h-11.5 bg-cover bg-no-repeat bg-center"
-          style={{ backgroundImage: `url(${Logo})` }}
+          style={{
+            backgroundImage: `url("https://www.rophim.me/images/logo.svg")`,
+          }}
         ></div>
-        <div className="max-w-[368px] w-full h-[44.8px] flex items-center px-12 relative bg-white/20 rounded-[6.4px]">
+        <div className="max-w-[368px] w-full h-[44.8px] flex items-center px-12 relative bg-white/20 rounded-[6.4px] border border-transparent focus-within:border-white">
           <div className="px-[3px] absolute left-3">
             <FontAwesomeIcon icon={faMagnifyingGlass} />
           </div>
 
           <div className="w-full text-sm">
             <input
-              className="placeholder:text-white"
+              className="placeholder:text-white focus:outline-none  "
               placeholder="Tìm kiếm phim, diễn viên"
             ></input>
           </div>
         </div>
         <div className="h-11 w-full flex items-center justify-between text-sm font-normal">
           <div className="flex gap-4">
-            <div className="px-3 leading-9">Chủ Đề</div>
-            <div className="px-3 leading-9 flex">
+            <div className="px-3 leading-9 cursor-pointer text-hover-change">
+              Chủ Đề
+            </div>
+            <div className="px-3 leading-9 cursor-pointer text-hover-change flex">
               Thể loại
               <div className="ml-2">
                 <FontAwesomeIcon icon={faCaretDown} />
               </div>
             </div>
-            <div className="px-3 leading-9">Phim Lẻ</div>
-            <div className="px-3 leading-9">Phim Bộ</div>
-            <div className="px-3 leading-9 flex ">
+            <div className="px-3 leading-9 cursor-pointer text-hover-change">
+              Phim Lẻ
+            </div>
+            <div className="px-3 leading-9 cursor-pointer text-hover-change">
+              Phim Bộ
+            </div>
+            <div className="px-3 leading-9 cursor-pointer text-hover-change flex ">
               <div className="mr-2 ">
                 <span className="py-[2px] rounded-[3px] px-[2.5px] bg-[#FFD875] text-[10px] font-medium text-black">
                   NEW
@@ -59,14 +66,18 @@ export const Header = () => {
               </div>
               Xem Chung
             </div>
-            <div className="px-3 leading-9 flex">
+            <div className="px-3 leading-9 cursor-pointer text-hover-change flex">
               Quốc gia
               <div className="ml-2">
                 <FontAwesomeIcon icon={faCaretDown} />
               </div>
             </div>
-            <div className="px-3 leading-9">Diễn Viên</div>
-            <div className="px-3 leading-9">Lịch chiếu</div>
+            <div className="px-3 leading-9 cursor-pointer text-hover-change">
+              Diễn Viên
+            </div>
+            <div className="px-3 leading-9 cursor-pointer text-hover-change">
+              Lịch chiếu
+            </div>
           </div>
           <div className="flex items-center ">
             <div className="border-r-1 pr-4 border-white/30 ">
@@ -95,16 +106,16 @@ export const Header = () => {
                   </svg>
                 </div>
                 <div className="flex flex-col">
-                  <span className="flex-nowrap">Tải ứng dụng</span>
+                  <span className="flex-nowrap text-xs">Tải ứng dụng</span>
                   <strong>RoPhim</strong>
                 </div>
               </div>
             </div>
-            <button className=" text-black ml-[35.2px] rounded-[48px] bg-white border-[1px] py-[9.6px] px-[22.4px] flex gap-2 items-center border-white">
-              <div className="ml-1">
+            <button className=" text-black ml-[35.2px] min-w-[145px] rounded-[48px] bg-[#e9ebef] border-[1px] py-[9.6px] px-[22.4px] flex gap-2 items-center border-white text-sm font-medium">
+              <div className="ml-1 ">
                 <FontAwesomeIcon icon={faUser} />
               </div>
-              <span className="text-sm font-medium">Thành viên</span>
+              <span className="leading-[22.4px]">Thành viên</span>
             </button>
           </div>
         </div>
