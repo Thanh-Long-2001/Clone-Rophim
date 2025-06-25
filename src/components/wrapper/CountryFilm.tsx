@@ -53,14 +53,14 @@ const getBackgroundColor = (index: number) => {
 };
 export const CountryFilm = () => {
   return (
-    <div className="w-full px-12.5 ">
-      <div className="w-full p-8 flex flex-col gap-8 h-[812.422px] rounded-2xl background-color-country">
+    <div className="w-full 2xl:px-12.5 md:px-5">
+      <div className="w-full md:p-8 p-4 flex flex-col gap-8 xl:h-[812.422px] rounded-2xl background-color-country">
         {listFilmByCountry.map((item, index) => (
-          <div className="gap-4 flex flex-1">
-            <div className="max-w-[214px] w-full flex items-center gap-6 pl-2 pr-6">
-              <div className=" flex flex-col justify-center gap-6">
+          <div className="gap-4 flex flex-1 max-xl:flex-col ">
+            <div className="xl:max-w-[214px] w-full flex items-center  gap-6 xl:pl-2 xl:pr-6">
+              <div className="w-full flex xl:flex-col max-xl:justify-between justify-center gap-6 ">
                 <span
-                  className="text-[28px] font-bold leading-[36.4px]"
+                  className="text-[28px] font-bold leading-[36.4px] max-md:text-[21px]"
                   style={{
                     background: `${getBackgroundColor(index)}`,
                     WebkitBackgroundClip: "text",
@@ -70,68 +70,68 @@ export const CountryFilm = () => {
                   {item.country}
                 </span>
                 <span className="flex gap-[3px] items-center text-sm text-white cursor-pointer text-hover-change">
-                  Xem toàn bộ <FontAwesomeIcon icon={faAngleRight} />
+                  <span className="max-md:hidden">Xem toàn bộ</span>
+                  <FontAwesomeIcon icon={faAngleRight} />
                 </span>
               </div>
             </div>
 
-            <div className="max-w-[1486px] w-full">
-              <div className="w-full h-full flex gap-4 relative">
-                <button className="absolute z-2 w-10 h-10 rounded-full bg-white flex justify-center items-center -translate-x-1/2 translate-y-13">
+            <div className=" w-full ">
+              <div className="w-full h-full relative ">
+                <button className="max-xl:hidden absolute z-2 w-10 h-10 rounded-full bg-white flex justify-center items-center -translate-x-1/2 translate-y-13">
                   <ArrowLeft w="20" h="20" />
                 </button>
-                <button className="absolute z-2 right-0 w-10 h-10 rounded-full bg-white flex justify-center items-center translate-x-1/2 translate-y-13">
+                <button className="max-xl:hidden absolute z-2 right-0 w-10 h-10 rounded-full bg-white flex justify-center items-center translate-x-1/2 translate-y-13">
                   <ArrowRight w="20" h="20" />
                 </button>
-                {getVisibleItems(item.items, 5).map((i) => (
-                  <div className="flex-1 h-full flex flex-col cursor-pointer">
+                <div className="w-full h-full flex max-xl:overflow-x-auto hide-scrollbar lg:gap-4 gap-2 overflow-hidden ">
+                  {item.items.map((i, idx) => (
                     <div
-                      className="w-full h-[158.81px] bg-cover bg-no-repeat bg-center rounded-[8px] relative"
-                      style={{ backgroundImage: `url(${imageMap[i.image]})` }}
+                      key={idx}
+                      className={`2xl:flex-1 flex-none h-full flex flex-col cursor-pointer lg:w-[calc((100%-32px)/3)] md:w-[calc((100%-16px)/2)] w-[calc((100%-8px)/2)]`}
                     >
-                      <div className="absolute bottom-0 left-4 text-white flex text-xs ">
-                        <div
-                          className={`gap-[3.2px] flex px-2 pt-[3.2px] rounded-tl-[4.8px] ${
-                            !i.tm ? "rounded-tr-[4.8px]" : ""
-                          }`}
-                          style={{
-                            backgroundColor: `${
-                              i.pd ? `rgb(94, 96, 112)` : ""
-                            }`,
-                          }}
-                        >
-                          {i.pd && <span>PD.</span>}
-                          {i.pd && <span>{i.pd}</span>}
+                      <div
+                        className="w-full xl:h-[158.81px] md:h-[178.8px] h-[109.2px] bg-cover bg-no-repeat bg-center rounded-[8px] relative"
+                        style={{ backgroundImage: `url(${imageMap[i.image]})` }}
+                      >
+                        <div className="absolute bottom-0 left-4 text-white flex text-xs ">
+                          <div
+                            className={`gap-[3.2px] flex px-2 pt-[3.2px] rounded-tl-[4.8px] ${
+                              !i.tm ? "rounded-tr-[4.8px]" : ""
+                            }`}
+                            style={{
+                              backgroundColor: i.pd ? "rgb(94, 96, 112)" : "",
+                            }}
+                          >
+                            {i.pd && <span>PD.</span>}
+                            {i.pd && <span>{i.pd}</span>}
+                          </div>
+                          <div
+                            className={`gap-[3.2px] flex px-2 pt-[3.2px] rounded-tr-[4.8px] ${
+                              !i.pd ? "rounded-tl-[4.8px]" : ""
+                            }`}
+                            style={{
+                              backgroundColor: i.tm ? "rgb(44, 163, 93)" : "",
+                            }}
+                          >
+                            {i.tm && <span>TM.</span>}
+                            {i.tm && <span className="">{i.tm}</span>}
+                          </div>
                         </div>
-                        <div
-                          className={`gap-[3.2px] flex px-2 pt-[3.2px] rounded-tr-[4.8px] ${
-                            !i.pd ? "rounded-tl-[4.8px]" : ""
-                          }`}
-                          style={{
-                            backgroundColor: `${
-                              i.tm ? "rgb(44, 163, 93)" : ""
-                            }`,
-                          }}
-                        >
-                          {i.tm && <span>TM.</span>}
-                          {i.tm && (
-                            <span className="leading-[100%]">{i.tm}</span>
-                          )}
+                      </div>
+                      <div className="flex-1 px-4 py-3">
+                        <div className="h-full w-full">
+                          <h4 className="text-white text-sm font-medium">
+                            {i.name}
+                          </h4>
+                          <h4 className="text-white/40 text-xs mt-1.25">
+                            {i.type}
+                          </h4>
                         </div>
                       </div>
                     </div>
-                    <div className="flex-1 px-4 py-3">
-                      <div className="h-full w-full">
-                        <h4 className="text-white text-sm font-medium">
-                          {i.name}
-                        </h4>
-                        <h4 className="text-white/40 text-xs mt-1.25">
-                          {i.type}
-                        </h4>
-                      </div>
-                    </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
             </div>
           </div>

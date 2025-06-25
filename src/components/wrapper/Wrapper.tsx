@@ -9,7 +9,7 @@ import "./Wrapper.css";
 import { UniqueStyle } from "./UniqueStyle";
 export const Wrapper = () => {
   return (
-    <div className="w-full flex flex-col gap-12.5 -mt-25 relative z-6 pb-40">
+    <div className="w-full flex flex-col gap-12.5 max-md:gap-6 xl:-mt-25 relative z-6 pb-40 ">
       <Attention />
       <CountryFilm />
       <SocialInfo />

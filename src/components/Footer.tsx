@@ -10,7 +10,7 @@ import ThreadsIcon from "../assets/threads-icon.svg";
 import InstagramIcon from "../assets/instagram-icon.svg";
 export const Footer = () => {
   return (
-    <div className="px-12.5">
+    <div className="px-12.5 max-lg:hidden">
       <div className="py-8 relative min-h-100">
         <div className="absolute w-150 h-full transform top-0 left-1/2 -translate-x-1/2 ">
           <FooterIcon />

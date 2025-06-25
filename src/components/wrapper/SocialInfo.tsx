@@ -63,7 +63,7 @@ const getColorIconByStatus = (status: string) => {
 
 export const SocialInfo = () => {
   return (
-    <div className="w-full px-12.5 h-[675.11px] text-white ">
+    <div className="w-full 2xl:px-12.5 h-[675.11px] text-white max-2xl:hidden">
       <div className="w-full h-full border-[1px] rounded-2xl border-white/10 flex flex-col">
         <div className="w-full h-[300px] px-8 py-6 border-b-[1px] border-white/10 flex flex-col relative">
           <button className="w-10 h-10 left-0  flex justify-center items-center border-[1px] border-white/10 rounded-full absolute -translate-x-1/2 position-by-top bg-[#191B24]">
