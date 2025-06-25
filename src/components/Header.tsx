@@ -10,7 +10,7 @@ export const Header = () => {
 
   useEffect(() => {
     const onScroll = () => {
-      setIsScrolled(window.scrollY > 0); // khi scroll > 0 thì đổi background
+      setIsScrolled(window.scrollY > 0);
     };
 
     window.addEventListener("scroll", onScroll);
@@ -18,47 +18,56 @@ export const Header = () => {
   }, []);
   return (
     <div
-      className={`w-full  px-8 ${
-        !isScrolled ? "h-[90px]" : "h-[70px] bg-[#0f111a]"
+      className={`w-full  2xl:px-8 xl:px-5 px-1.5 max-md:bg-[#0f111a] ${
+        !isScrolled ? "xl:h-[90px] h-15" : "h-[90px] bg-[#0f111a]"
       } flex items-center text-white`}
     >
-      <div className="w-full h-full flex gap-[32px] items-center">
-        <div
-          className="max-w-[154.55px] w-full h-11.5 bg-cover bg-no-repeat bg-center"
-          style={{
-            backgroundImage: `url("https://www.rophim.me/images/logo.svg")`,
-          }}
-        ></div>
-        <div className="max-w-[368px] w-full h-[44.8px] flex items-center px-12 relative bg-white/20 rounded-[6.4px] border border-transparent focus-within:border-white">
-          <div className="px-[3px] absolute left-3">
-            <FontAwesomeIcon icon={faMagnifyingGlass} />
-          </div>
-
-          <div className="w-full text-sm">
-            <input
-              className="placeholder:text-white focus:outline-none  "
-              placeholder="Tìm kiếm phim, diễn viên"
-            ></input>
+      <div className="w-full h-full flex 2xl:gap-8 gap-6 items-center max-xl:justify-between">
+        <div className="xl:hidden w-10 h-10 cursor-pointer flex justify-center items-center text-base">
+          <div className="relative w-5 h-5 py-[3px]">
+            <span className="w-full h-0.5 bg-white block"></span>
+            <span className="w-[70%] h-0.5 bg-white block mt-1"></span>
+            <span className="w-full h-0.5 bg-white block mt-1"></span>
           </div>
         </div>
-        <div className="h-11 w-full flex items-center justify-between text-sm font-normal">
-          <div className="flex gap-4">
-            <div className="px-3 leading-9 cursor-pointer text-hover-change">
+        <div className="2xl:w-[155px] xl:w-[134.4px] max-xl:w-[121px] 2xl:h-11.5 xl:h-10 h-9  max-xl:absolute left-[65px]">
+          <img
+            className="w-full h-full"
+            src="https://www.rophim.me/images/logo.svg"
+          />
+        </div>
+        <div className="">
+          <div className=" hidden 2xl:max-w-[368px] xl:max-w-[257.16px] w-full h-[44.8px] xl:flex items-center px-9.5 relative bg-white/20 rounded-[6.4px] border border-transparent focus-within:border-white">
+            <div className="px-[3px] absolute left-3">
+              <FontAwesomeIcon icon={faMagnifyingGlass} />
+            </div>
+
+            <div className="text-sm w-full">
+              <input
+                className="placeholder:text-white focus:outline-none w-full 2xl:min-w-40"
+                placeholder="Tìm kiếm phim, diễn viên"
+              ></input>
+            </div>
+          </div>
+        </div>
+        <div className="h-11  xl:flex w-full hidden items-center justify-between text-size text-[13px] font-normal">
+          <div className="flex 2xl:gap-4 gap-2">
+            <div className="padding-item px-2 leading-9 cursor-pointer text-hover-change text-nowrap">
               Chủ Đề
             </div>
-            <div className="px-3 leading-9 cursor-pointer text-hover-change flex">
+            <div className="padding-item px-2 leading-9 cursor-pointer text-hover-change text-nowrap flex">
               Thể loại
               <div className="ml-2">
                 <FontAwesomeIcon icon={faCaretDown} />
               </div>
             </div>
-            <div className="px-3 leading-9 cursor-pointer text-hover-change">
+            <div className="padding-item px-2 leading-9 cursor-pointer text-hover-change text-nowrap">
               Phim Lẻ
             </div>
-            <div className="px-3 leading-9 cursor-pointer text-hover-change">
+            <div className="padding-item px-2 leading-9 cursor-pointer text-hover-change text-nowrap">
               Phim Bộ
             </div>
-            <div className="px-3 leading-9 cursor-pointer text-hover-change flex ">
+            <div className="padding-item px-2 leading-9 cursor-pointer text-hover-change text-nowrap flex ">
               <div className="mr-2 ">
                 <span className="py-[2px] rounded-[3px] px-[2.5px] bg-[#FFD875] text-[10px] font-medium text-black">
                   NEW
@@ -66,21 +75,21 @@ export const Header = () => {
               </div>
               Xem Chung
             </div>
-            <div className="px-3 leading-9 cursor-pointer text-hover-change flex">
+            <div className="padding-item px-2 leading-9 cursor-pointer text-hover-change text-nowrap flex">
               Quốc gia
               <div className="ml-2">
                 <FontAwesomeIcon icon={faCaretDown} />
               </div>
             </div>
-            <div className="px-3 leading-9 cursor-pointer text-hover-change">
+            <div className="padding-item px-2 leading-9 cursor-pointer text-hover-change text-nowrap">
               Diễn Viên
             </div>
-            <div className="px-3 leading-9 cursor-pointer text-hover-change">
+            <div className="padding-item px-2 leading-9 cursor-pointer text-hover-change text-nowrap">
               Lịch chiếu
             </div>
           </div>
           <div className="flex items-center ">
-            <div className="border-r-1 pr-4 border-white/30 ">
+            <div className="2xl:border-r-1 2xl:pr-4 border-white/30 ">
               <div className="flex items-center gap-3  px-[19.2px]">
                 <div className="">
                   <svg
@@ -106,18 +115,21 @@ export const Header = () => {
                   </svg>
                 </div>
                 <div className="flex flex-col">
-                  <span className="flex-nowrap text-xs">Tải ứng dụng</span>
+                  <span className="text-nowrap text-xs">Tải ứng dụng</span>
                   <strong>RoPhim</strong>
                 </div>
               </div>
             </div>
-            <button className=" text-black ml-[35.2px] min-w-[145px] rounded-[48px] bg-[#e9ebef] border-[1px] py-[9.6px] px-[22.4px] flex gap-2 items-center border-white text-sm font-medium">
+            <button className=" text-black 2xl:ml-[35.2px] 2xl:min-w-[145px] w-fit rounded-[48px] bg-[#e9ebef] border-[1px] py-[9.6px] 2xl:px-[22.4px] px-[12.8px] flex gap-2 items-center border-white text-sm font-medium">
               <div className="ml-1 ">
                 <FontAwesomeIcon icon={faUser} />
               </div>
-              <span className="leading-[22.4px]">Thành viên</span>
+              <span className="leading-[22.4px] text-nowrap">Thành viên</span>
             </button>
           </div>
+        </div>
+        <div className="xl:hidden w-10 h-10 flex justify-center items-center">
+          <FontAwesomeIcon icon={faMagnifyingGlass} />
         </div>
       </div>
     </div>

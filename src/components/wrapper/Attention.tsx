@@ -32,47 +32,51 @@ export const Attention = () => {
   };
 
   return (
-    <div className="w-full px-12.5 ">
-      <div className="text-white mb-[19.2px]">
-        <h3 className="text-[28px] font-semibold leading-1.4">
+    <div className="w-full max-md:mt-7.5">
+      <div className="2xl:px-12.5 px-5 max-md:px-4 text-white mb-[19.2px]">
+        <h3 className="2xl:text-[28px] font-semibold leading-1.4 xl:text-[25.2px] max-xl:text-[22.4px] flex-1">
           Bạn đang quan tâm gì?
         </h3>
       </div>
-      <div className="hidden lg:grid grid-cols-7 gap-4">
-        {getVisibleItems(7).map((item, i) => (
-          <div
-            key={i}
-            className={` ${
-              i !== getVisibleItems(7).length - 1
-                ? "px-4 py-[19.2px] pl-6 pr-10"
-                : "flex items-center justify-center"
-            } rounded-xl text-white cursor-pointer transition-transform`}
-            style={{ backgroundColor: item.color }}
-            onMouseEnter={(e) =>
-              (e.currentTarget.style.transform = "translateY(-9.6px)")
-            }
-            onMouseLeave={(e) =>
-              (e.currentTarget.style.transform = "translateY(0)")
-            }
-          >
+      <div className=" 2xl:px-12.5 px-5 max-md:px-4 max-md:overflow-x-auto hide-scrollbar">
+        <div className="grid 2xl:grid-cols-7 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 gap-4 max-md:gap-2 max-md:flex max-md:w-max  ">
+          {getVisibleItems(7).map((item, i) => (
             <div
-              className={`h-[110px] flex flex-col ${
+              key={i}
+              className={` ${
                 i !== getVisibleItems(7).length - 1
-                  ? "justify-end"
-                  : "justify-center text-center"
-              } gap-[11.2px]`}
+                  ? "md:px-4 md:py-[19.2px] md:pl-6 md:pr-10 max-md:h-20.5"
+                  : "flex items-center justify-center"
+              } rounded-xl max-md:rounded-lg text-white cursor-pointer transition-transform max-md:w-30 max-md:flex max-md:items-center max-md:p-4`}
+              style={{ backgroundColor: item.color }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.transform = "translateY(-9.6px)")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.transform = "translateY(0)")
+              }
             >
-              <span className="font-bold text-[28px] leading-1.3">
-                {item.title}
-              </span>
-              {hasMore && i !== getVisibleItems(7).length - 1 && (
-                <span className="flex gap-[3px] items-center text-sm">
-                  Xem chủ đề <FontAwesomeIcon icon={faAngleRight} />
+              <div
+                className={`h-[110px] max-md:h-10 flex flex-col ${
+                  i === getVisibleItems(7).length - 1 ? "xl:h-fit py-4" : ""
+                } ${
+                  i !== getVisibleItems(7).length - 1
+                    ? "justify-end max-md:justify-center"
+                    : "justify-center text-center"
+                } gap-[11.2px]`}
+              >
+                <span className="font-bold 2xl:text-[28px] xl:text-[22.4px]  max-md:text-[15.4px] text-[19.6px] leading-1.3">
+                  {item.title}
                 </span>
-              )}
+                {hasMore && i !== getVisibleItems(7).length - 1 && (
+                  <span className="flex gap-[3px] items-center text-sm max-md:hidden">
+                    Xem chủ đề <FontAwesomeIcon icon={faAngleRight} />
+                  </span>
+                )}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
